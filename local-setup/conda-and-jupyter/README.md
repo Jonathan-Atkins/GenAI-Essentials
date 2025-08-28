@@ -45,3 +45,8 @@ ls -la ~/miniconda3/envs
 conda deactivate
 conda remove -n envname --all -y
 ```
+
+## Installing Conda Librabry
+
+```sh
+conda install -c conda-forge panadas
