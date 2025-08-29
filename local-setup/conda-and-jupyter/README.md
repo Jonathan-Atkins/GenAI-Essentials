@@ -29,9 +29,17 @@ conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
 
 ## Activate Env
 
+
 ```sh
 conda activate hello
 ```
+
+**If env doesnt load try this, then activating again**
+
+```sh
+source /opt/conda/etc/profile.d/conda.sh
+```
+
 
 ## See all existing conda envs
 
